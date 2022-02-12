@@ -1,0 +1,538 @@
+<!doctype html>
+<!--
+services page
+-->
+<html>
+        <head>
+            <meta name="viewport" content="width=device-width,initial-scale=1.0">
+       
+            <style>
+                @media only screen and (min-width:320px)
+                 { 
+                     html,body{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+   .header-img{
+    height:50px;
+    width:50px;
+    padding-top: 15px;     
+    margin-left: 2px;
+   }
+
+    header{
+        background: #006699;
+        width:100%;
+        height:80px; 
+        margin:auto;
+        top:0;
+    }
+    header h1{
+        display:inline;
+        top:0px;
+        margin-bottom: 10px;
+       color:white;
+        margin: auto;
+       text-align:center;
+       font-family:serif ;
+       font-size:22px;
+       }  
+    
+    #lineh{
+        border-top:10px solid #00CC66;
+        padding: 0px;
+        width:100%;
+        }
+
+ body{
+    margin-top: 0;
+    margin-left:0;
+    margin-right:0;
+    }
+
+  .mainnav{
+        width:100%;
+        margin:80px 0 1em 0;
+        position: absolute;
+        background-color:white;                        
+        overflow:hidden;
+      }
+        
+.mainnav a{
+      color:#006699;
+      text-decoration:none;
+      font-family:Serif,times new roman;
+      font-size:17px;
+      padding:4px;
+      
+}
+.mainnav a:hover{
+            background-color: #006699;
+            color:#FFFFFF;
+            
+             }
+    .mainnav a.Active{
+                 background-color:#006699;
+                 color:white;
+             }
+         
+      .addtop{
+            
+           margin-top:20px;
+            font-size: 15px;
+            font-family:monospace;
+            color:black;
+            font-style: oblique;
+            text-align: center;
+            width:100%;
+             background: -webkit-linear-gradient(black,#00CC66);
+            -webkit-background-clip:text;
+            -webkit-text-fill-color: transparent;
+       }
+  
+          .part1{
+              margin-top: 0;
+              text-align: center;
+              color:#006699;
+              background:#FFFFCC;
+              font-size: 25px;
+              font-weight: bold;
+              padding: 5px;
+              
+             }
+          
+          ul{
+              list-style-type: none;
+              
+          }
+            
+       .Scard{
+              margin-top: 0;
+              text-align:center;
+              color:white;
+              background:#006699;
+              font-size: 20px;
+              font-weight: bold;
+                margin-bottom: 10px;
+              padding: 15px;
+              border-radius:30px;
+              height:50%;
+              width:85%;
+              margin-left:10px;
+              float:left;
+           }
+          
+.position{
+               text-transform: uppercase;
+               font-size:20px;
+               
+           }
+           img{
+               width:250px;
+               height:100px;
+             
+           }
+           
+.applybotton{
+                 
+            background: white;
+            margin-left: 0;
+            color:#006699;
+            padding: 5px;
+            padding-left: 0;
+            border-radius:20px;
+            width:90%;
+            text-align: center;
+            background-position: center;
+            margin-left: 10px;
+            
+                
+       }
+             .applybotton a{
+                 text-decoration:none;
+                 color:#006699;
+              
+             } 
+          
+          .part2{
+              
+              margin-top:10px;
+              text-align: center;
+              color:blue;
+              background:#CCFFCC;
+              font-size: 20px;
+              padding:5px;
+              font-family:serif;
+              text-transform: uppercase;
+              }
+        
+            .part3{
+              margin-top: 10px;
+              text-align: left;
+              color:#006699;
+              background:#FFFFCC;
+              font-size: 20px;
+              padding:15px;
+              font-family:serif;
+              font-weight: bold;
+        }
+              li{
+                  margin-top: 0;
+                 background:#cc0000;
+               border:solid;
+               border-color:white;
+               color:white;
+               font-family:san-serif;
+               font-size:16px;
+               padding: 5px;
+               font-weight:bolder;
+             }
+ 
+#lineh2{
+        border-top:10px solid #00CC66;
+        padding: 0px;
+        width:100%;
+        }
+                     
+footer{
+    position:absolute;
+     background:#006699;
+     color:#FFFFFF;
+     width: 100%;
+     text-align: center;
+     margin-bottom:0;
+     font-size:15px;
+      }
+      
+      footer a{
+          text-decoration:none;
+          color:white;
+          } 
+          }   
+             
+         @media only screen and (min-width:992px){  
+                
+html,body{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+ .header-img{
+    height:200px;
+   width:200px;
+   padding-top: 20px;
+   margin-left:30px;
+    }
+
+    header{
+        background: #006699;
+        width:100%;
+        height:250px; 
+        margin:auto;
+        top:0;
+    }
+    header h1{
+        display:inline;
+        color:white;
+        margin: auto;
+        text-align:center;
+        font-family:serif ;
+        font-size:80px;
+        
+       
+       }  
+    
+ #lineh{
+        margin-top: 0;
+        border-top:30px solid #00CC66;
+        padding: 0px;
+        width:100%;
+        }
+  body{
+    margin-top: 0;
+    margin-left:0;
+    margin-right:0;
+   }
+     .mainnav{
+        width:100%;
+        margin:260px 0 1em 0;
+        position: absolute;
+        background-color:white;                        
+        overflow:hidden;
+      
+       
+    }
+        
+.mainnav a{
+      color:#006699;
+      text-decoration:none;
+      font-family:Serif,times new roman;
+      font-size:30px;
+      padding:10px;
+      
+}
+.mainnav a:hover{
+            background-color: #006699;
+            color:#FFFFFF;
+            
+             }
+             .mainnav a.Active{
+                 background-color:#006699;
+                 color:white;
+             }
+.addtop{
+         margin-top:30px;
+         margin-bottom: 10px;
+        font-size: 30px;
+        font-style:oblique;
+        text-align: center;
+        width:100%;
+        background: -webkit-linear-gradient(black,#00CC66);
+        -webkit-background-clip:text;
+        -webkit-text-fill-color: transparent;
+        }
+  
+ .part1{
+              margin-top: 0;
+              text-align:left;
+              color:#006699;
+              background:#FFFFCC;
+              font-size: 40px;
+              font-weight: bold;
+              padding: 10px;
+           }
+           .part2{
+              margin-top:0px;
+              text-align: left;
+              color:#003366;
+              background:#00CC66;
+              font-size: 40px;
+              padding:15px;
+              font-family:serif;
+              text-transform: uppercase;
+                }
+            .part3{
+              margin-top: 10px;
+              text-align: left;
+              color:#006699;
+              background:#FFFFCC;
+              font-size: 30px;
+              padding:15px;
+              font-family:serif;
+              font-weight: bold;
+        }
+        
+       .Scard{
+              margin-top: 0;
+              text-align:center;
+              color:white;
+              background:#006699;
+              font-size: 40px;
+              font-weight: bold;
+              margin-right:50%;
+              margin-left:10px;
+              padding: 15px;
+              border-radius:30px;
+              height:700px;
+              width:700px;
+              margin-top: 10px;
+              float:left;
+           }
+          
+.position{
+               padding-top: 20px;
+               padding-bottom: 5px;
+               text-transform: uppercase;
+               font-size:50px;
+               
+           }
+           
+           img{
+               width:600px;
+               height:250px;
+           }
+.applybotton{
+                 
+               background: white;
+              margin-left: 0;
+               color:#006699;
+               padding: 5px;
+               padding-left: 0;
+               border-radius:20px;
+                width:700px;
+                text-align: center;
+                background-position: center;
+                margin-bottom: 5px;
+                margin-top: 5px;
+       }
+             .applybotton a{
+                 text-decoration:none;
+                 color:#006699;
+              
+             } 
+        
+             .div2{
+                 width:40%;
+                 margin:515px;
+                 margin-left: 60%;
+                 position: absolute;
+             }  
+             li{
+               background:#cc0000;
+               border:solid;
+               border-color:white;
+               color:white;
+               font-family:san-serif;
+               font-size:40px;
+               padding: 10px;
+               font-weight:bolder;
+             }
+        
+  
+ #lineh2{
+        border-top:30px solid #00CC66;
+        padding: 0px;
+        width:100%;
+        }
+                     
+footer{
+      position:absolute;
+      background:#006699;
+      color:#FFFFFF;
+      width: 100%;
+      text-align: center;
+      margin-bottom:0;
+      font-size:30px;
+      }
+      footer a{
+          text-decoration:none;
+          color:white;
+          }
+           }               
+            </style>
+<title>Services</title>
+        
+        <header> 
+            <img class="header-img" src="image/LOGO.png" alt="LOGO"/>
+            <h1>Kinesthetic Rehab Services</h1> </header>
+        <div id="lineh"></div>
+       
+</head>
+
+<body>
+     <div class="mainnav">
+        <a href="landing page.html">Home</a>
+        <a class="Active" href="Services.html">Services</a>
+        <a  href="Career.html">Career</a>
+        <a href="Contact us.html">Contact</a>
+        <a href="About us.html">About</a>
+      </div>
+    <div  >
+       
+        <div class="addtop">Michigan-USA</div>  
+        <p class="part1">
+                 We are delighted to have the following professionals on our staff to better serve the clients.
+        </p>
+    </div>
+
+    
+    <div class="Scard">
+            <div class="ïmgv">
+                <img src="image/PT.png" alt="PT">
+            </div>
+        
+            <div class="position">
+                Physical Therapist
+
+            </div>
+            
+           <div class="applybotton">
+               <a href="mailto:pateljd@gmail.com">E-MAIL APPOINTMENT HERE</a>
+            </div>
+    </div>        
+            
+    <div class="Scard">
+            <div class="ïmgv">
+                <img src="image/OT.jpg" alt="OT"> 
+            </div>
+            <div class="position">
+                Occupational Therapist
+            </div>
+            <div class="applybotton">
+               <a href="mailto:pateljd@gmail.com">E-MAIL APPOINTMENT HERE</a>
+            </div>
+            
+    </div>
+    
+    
+    <div class="Scard">
+            <div class="ïmgv">
+                <img src="image/KT.jpg" alt="KT"> 
+            </div>
+            
+            <div class="position">
+                Exercise Physiologist / Kinesiologist
+            </div>
+            <div class="applybotton">
+               <a href="mailto:pateljd@gmail.com">E-MAil APPOINTMENT HERE</a>
+            </div>
+            
+    </div>
+    
+    
+    
+    
+    <div class="div2">
+        
+        <p class="part2">
+         We have        
+        </p>
+        <ul>
+            <li>Proficient and high quality services</li>
+            <li>Personalized for each individual’s unique needs</li>
+        </ul>
+        
+        <p class="part2">
+            We work hard to provide outstanding counseling to each person that comes to us
+        </p>
+        
+        <p class="part2">
+            We understand each situation is unique and each person has their own proficiencies, skills and talent
+        </p>
+    </div>
+    
+    
+    
+    <div>    <p class="part3">
+         Kinesthetic Rehab Services is dedicated to evolving human potential. Encouraged by a competitive and challenging market, we pursue opportunities to deliver service that is finely tuned to meet the precise requirements of our clients.
+
+        </p>
+    </div>
+    
+    
+    <div id="lineh2">
+    </div>
+    
+    <div>
+    
+        
+    <footer>
+               <div class="fotcon">
+                     Call us: <a href="12334566"></a>
+                     <br>
+                     Fax Number: <a href="12334566"></a>
+                     <br>
+                     E-Mail:<a href="mailto:pateljd@gmail.com"></a>
+                     <br>
+                     Address:<a href="maplink">our location</a>
+                     <br>
+                     <p>Kinesthetic Rehab Services &copy;</p>
+               </div>
+          </footer>
+      </div>
+
+
+</body>
+
+</html>

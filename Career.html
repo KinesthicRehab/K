@@ -1,0 +1,618 @@
+
+<!doctype html>
+<!--
+Career page
+-->
+
+<html>
+
+<head>
+        
+              
+         
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+       
+ 
+        <style> @media only screen and (min-width:320px)
+                 { 
+                     html,body{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+}
+     .header-img{
+    height:50px;
+    width:50px;
+    padding-top: 15px;     
+    margin-left: 2px;
+   }
+
+    header{
+        background: #006699;
+        width:100%;
+        height:80px; 
+        margin:auto;
+        top:0;
+    }
+    header h1{
+        display:inline;
+        top:0px;
+        margin-bottom: 10px;
+       color:white;
+        margin: auto;
+       text-align:center;
+       font-family:serif ;
+       font-size:22px;
+       } 
+    #lineh{
+        border-top:10px solid #00CC66;
+        padding: 0px;
+        width:100%;
+        }
+
+ body{
+    margin-top: 0;
+    margin-left:0;
+    margin-right:0;
+    }
+ .mainnav{
+        width:100%;
+        margin:80px 0 1em 0;
+       
+   
+        position: absolute;
+        background-color:white;                        
+        overflow:hidden;
+      
+       
+    }
+        
+.mainnav a{
+      color:#006699;
+      text-decoration:none;
+      font-family:Serif,times new roman;
+      font-size:17px;
+     
+      padding:4px;
+      
+}
+.mainnav a:hover{
+            background-color: #006699;
+            color:#FFFFFF;
+            
+             }
+             .mainnav a.Active{
+                 background-color:#006699;
+                 color:white;
+             }
+         .addtop{
+            
+           margin-top:20px;
+            font-size: 15px;
+            font-family:monospace;
+            color:black;
+            font-style: oblique;
+            text-align: center;
+            width:100%;
+             background: -webkit-linear-gradient(black,#00CC66);
+            -webkit-background-clip:text;
+            -webkit-text-fill-color: transparent;
+       }
+  
+         
+          
+          ul{
+              list-style-type: none;
+              
+          }
+             
+.vaccancy{
+              margin-top:auto;
+              text-align:center;
+              color:white;
+              background:#006699;
+              font-size:20px;
+              font-weight: bold;
+               margin-left: 15px;
+               padding: 2px;
+               
+             
+              border-radius:30px;
+              height:130%;
+              width:90%;
+              margin-top: 10px;
+             
+           }
+          
+.position{
+               padding-top:10px;
+               padding-bottom:5px;
+               text-transform: uppercase;
+               
+           }
+           
+.applybotton{
+                 
+               background: white;
+              margin-left: 18px;
+               color:#006699;
+               padding: 5px;
+               padding-left: 0;
+               border-radius:20px;
+                width:250px;
+                text-align: center;
+                background-position: center;
+                margin-bottom: 5px;
+                margin-top: 5px;
+       }
+             .applybotton a{
+                 text-decoration:none;
+                 color:#006699;
+              
+             }
+              img{
+               width:250px;
+               height:100px;
+             
+           }
+            
+             
+
+    .part2{
+              
+            
+              text-align: left;
+              color:#006699;
+              background:#CCFFCC;
+              font-size: 30px;
+              padding: 10px;
+              font-family:serif;
+              float:right;
+              padding-top: 0;
+             border-radius:0;
+              margin-bottom: 10px;
+             
+              text-transform: uppercase;
+             
+    }
+    .part3{
+              
+            
+              text-align: left;
+              color:white;
+              background:#6699ff;
+              font-size: 20px;
+              padding: 10px;
+              font-family:serif;
+              float:right;
+              padding-top: 0;
+             
+              margin-bottom: 10px;
+             
+              text-transform: uppercase;
+             
+    }
+   .part4{
+              
+            
+              text-align: left;
+              color:white;
+              background:#00CCFF;
+              font-size: 20px;
+              padding: 10px;
+              font-family:serif;
+              float:right;
+              padding-top: 0;
+             
+              margin-bottom: 10px;
+             
+              text-transform: uppercase;
+             
+    } 
+    .part5{
+              
+            
+              text-align: left;
+              color:white;
+              background:#3366FF;
+              font-size: 20px;
+              padding: 10px;
+              font-family:serif;
+              float:right;
+              padding-top: 0;
+             
+              margin-bottom: 10px;
+             
+              text-transform: uppercase;
+    }
+     
+    
+.note{
+    background:#FFFFCC;
+    font-size:16px;
+    font-style:oblique;
+    height:50px;
+    padding: 10px;
+    text-align: center;
+}   
+#lineh2{
+        border-top:10px solid #00CC66;
+        padding: 0px;
+        width:100%;
+        }
+                     
+footer{
+    position:absolute;
+     background:#006699;
+     color:#FFFFFF;
+     width: 100%;
+     text-align: center;
+     margin-bottom:0;
+     font-size:15px;
+      }
+      
+      footer a{
+          text-decoration:none;
+          color:white;
+          } 
+          }           
+             
+         @media only screen and (min-width:992px){  
+                
+html,body{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+    
+ .header-img{
+    height:200px;
+   width:200px;
+   padding-top: 20px;
+   margin-left:30px;
+    }
+
+    header{
+        background: #006699;
+        width:100%;
+        height:250px; 
+        margin:auto;
+        top:0;
+    }
+    header h1{
+        display:inline;
+        color:white;
+        margin: auto;
+        text-align:center;
+        font-family:serif ;
+        font-size:80px;
+        
+       
+       }    
+   
+    
+ #lineh{
+        margin-top: 0;
+        border-top:30px solid #00CC66;
+        padding: 0px;
+        width:100%;
+        }
+  body{
+    margin-top: 0;
+    margin-left:0;
+    margin-right:0;
+   }
+
+ .mainnav{
+        width:100%;
+        margin:260px 0 1em 0;
+        position: absolute;
+        background-color:white;                        
+        overflow:hidden;
+      
+       
+    }
+        
+.mainnav a{
+      color:#006699;
+      text-decoration:none;
+      font-family:Serif,times new roman;
+      font-size:30px;
+     
+      padding:10px;
+      
+}
+.mainnav a:hover{
+            background-color: #006699;
+            color:#FFFFFF;
+            
+             }
+             .mainnav a.Active{
+                 background-color:#006699;
+                 color:white;
+             }
+.addtop{
+         margin-top:30px;
+         margin-bottom: 10px;
+        font-size: 30px;
+        font-style:oblique;
+        text-align: center;
+        width:100%;
+         background: -webkit-linear-gradient(black,#00CC66);
+            -webkit-background-clip:text;
+            -webkit-text-fill-color: transparent;
+        }
+        #div1{
+          
+            margin-bottom: 10px;   
+            
+            width:700px;
+        }   
+        #div2{
+           position:absolute;
+          top:285px;
+          width:40%;
+          margin-bottom: 20px;
+          margin-left: 60%;
+        }
+.vaccancy{
+              margin-top: 0;
+              text-align:center;
+              color:white;
+              background:#006699;
+              font-size: 40px;
+              font-weight: bold;
+              margin-right:50%;
+              margin-left:10px;
+              padding: 15px;
+              border-radius:30px;
+              height:1700px;
+              width:700px;
+              margin-top: 10px;
+              float:left;
+           }
+          
+.position{
+               padding-top: 50px;
+               padding-bottom: 5px;
+               text-transform: uppercase;
+           }
+           img{
+               width:600px;
+               height:300px;
+           }
+           
+.applybotton{
+                 
+               background: white;
+              margin-left: 0;
+               color:#006699;
+               padding: 5px;
+               padding-left: 0;
+               border-radius:20px;
+                width:700px;
+                text-align: center;
+                background-position: center;
+                margin-bottom: 5px;
+                margin-top: 5px;
+       }
+             .applybotton a{
+                 text-decoration:none;
+                 color:#006699;
+              
+             }
+            
+             
+.part2{
+              
+            
+              text-align: left;
+              color:#006699;
+              background:#CCFFCC;
+              font-size: 60px;
+              padding: 10px;
+              font-family:serif;
+              float:right;
+              padding-top: 0;
+             border-radius:0;
+              margin-bottom: 10px;
+             
+              text-transform: uppercase;
+             
+    }
+    .part3{
+              
+            
+              text-align: left;
+              color:white;
+              background:#6699ff;
+              font-size: 40px;
+              padding: 10px;
+              font-family:serif;
+              float:right;
+              padding-top: 0;
+             
+              margin-bottom: 10px;
+             
+              text-transform: uppercase;
+             
+    }
+   .part4{
+              
+            
+              text-align: left;
+              color:white;
+              background:#00CCFF;
+              font-size: 40px;
+              padding: 10px;
+              font-family:serif;
+              float:right;
+              padding-top: 0;
+             
+              margin-bottom: 10px;
+             
+              text-transform: uppercase;
+             
+    } 
+    .part5{
+              
+            
+              text-align: left;
+              color:white;
+              background:#3366FF;
+              font-size: 40px;
+              padding: 10px;
+              font-family:serif;
+              float:right;
+              padding-top: 0;
+             
+              margin-bottom: 10px;
+             
+              text-transform: uppercase;
+             
+    }
+.note{
+    background:#FFFFCC;
+    font-size:30px;
+    font-style:oblique;
+    height:50px;
+    padding: 10px;
+    text-align: center;
+}             
+  
+ #lineh2{
+        border-top:30px solid #00CC66;
+        padding: 0px;
+        width:100%;
+        }
+                     
+footer{
+       position:absolute;
+      
+      background:#006699;
+      color:#FFFFFF;
+      width: 100%;
+      text-align: center;
+      
+      font-size:30px;
+      }
+      footer a{
+          text-decoration:none;
+          color:white;
+          }
+           }               
+            </style>
+        
+      
+       
+        
+        <title>Career</title>
+<header>
+    <img class="header-img" src="image/LOGO.png" alt="LOGO"/> <h1>Kinesthetic Rehab Services </h1>
+    </header>
+<div id="lineh"></div>
+</head>
+
+<body>
+    
+    <div class="mainnav">
+        <a   href="landing page.html">Home</a>
+        <a  href="Services.html">Services</a>
+        <a class="Active"  href="Career.html">Career</a>
+        <a href="Contact us.html">Contact</a>
+        <a   href="About us.html">About</a>
+    </div>
+    
+  
+    <div class="addtop">Michigan-USA</div>
+    
+    <div id="div1" class="vaccancy">
+    
+    
+        
+    <div class="position">
+                Position: Exercise Physiologist / Kinesiologist
+    </div>
+    
+    <div class="ïmgv">
+                <img src="image/KTc.png" alt="KTc"/> 
+    </div>
+            
+    <div class="applybotton">
+               <a href="mailto:pateljd@gmail.com">Apply</a>
+    </div>
+            
+    
+        
+    <div class="position">
+                Position: Occupational therapist
+    </div>
+    
+    <div class="ïmgv">
+                <img src="image/OTc.png" alt="0Tc"/>
+    </div>
+            
+    <div class="applybotton">
+               <a href="mailto:pateljd@gmail.com">Apply</a>
+    </div>
+            
+    
+        
+        
+    <div class="position">
+                Position: Physical therapist
+    </div>
+    <div class="ïmgv">
+           <img src="image/PTc.png" alt="PTc"/>  
+    </div>
+            
+    <div class="applybotton">
+               <a href="mailto:pateljd@gmail.com">Apply</a>
+    </div>
+            
+    </div>
+       
+    <div id="div2">
+        <p class="part2">
+            We provide
+        </p>  
+        
+        <p class="part3"> Short-term, long-term, and temporary to permanent placements<p>
+        
+        <p class="part4">Of qualified, experienced, registered, and highly-trained</p>
+        <p class="part5">Physical Therapists, Occupational Therapists, Exercise Physiologist/ Kinesiologist</p>
+            
+    </div>
+        
+    <div>
+        <p class="note">
+            Note*:Apply with your CV and Resume through apply button to our e-mail.
+        </p>
+   
+    </div>
+     
+    <div id="lineh2">
+        
+    </div>
+    
+          <div>
+              <footer>
+                  <div>
+                     Call us: <a href="12334566"></a>
+                     <br>
+                     Fax Number: <a href="12334566"></a>
+                     <br>
+                     E-Mail:<a href="mailto:pateljd@gmail.com"></a>
+                     <br>
+                     Address:<a href="maplink">our location</a>
+                     <br>
+                     <p>Kinesthetic Rehab Services &copy;</p>
+                  </div>
+                   
+            </footer>
+          </div>
+
+
+</body>
+
+</html>
